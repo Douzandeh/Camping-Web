@@ -1,6 +1,7 @@
 :root {
   --orange: #e76f51;
   --white: #fff;
+  --grey: #d2d2d2;
 }
 
 html {
@@ -55,12 +56,18 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 2.5rem 0;
 }
+.nav__wrapper{
+  display: flex;
+  align-items: center;
+}
+
 .app-logo {
   display: block;
   width: 5.5rem;
   height: 5.5rem;
+  margin-right: 3rem;
 }
 .app-logo__img {
   width: 100%;
@@ -70,8 +77,10 @@ a {
   display: none;
 }
 .menu__item {
+  margin-right: 1.5rem;
 }
 .menu__link {
+  color: var(--grey);
 }
 .nav-menu {
   position: fixed;
@@ -87,7 +96,7 @@ a {
   -ms-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
 }
-.nav-menu--open{
+.nav-menu--open {
   left: 0;
 }
 
@@ -117,9 +126,21 @@ a {
 .header__links {
   display: none;
 }
-.heaader__link {
+
+.header__link {
+  color: var(--white);
+  font-family: "Roboto Medium";
+  margin-left: 1.5rem;
+
 }
-.heaader__link--border {
+.header__link--border {
+  border: 1px solid var(--white);
+  padding: 1rem 2.5rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
 }
 .nav__btn {
   background-color: var(--white);
