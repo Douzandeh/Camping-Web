@@ -69,7 +69,7 @@ a {
     url("../images/header-bg.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 85vh;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
 }
@@ -367,11 +367,13 @@ Header Content
   font-family: "Archivo Black";
   font-size: 5rem;
   line-height: 1.2;
-  margin-bottom: 3rem;
+  max-width: 35rem;
+  margin: 0 auto 3rem auto;
 }
 .header-content__caption {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
 }
 .header-content__link {
   background-color: var(--orange);
