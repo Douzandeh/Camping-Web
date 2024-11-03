@@ -3,6 +3,9 @@
   --white: #fff;
   --grey: #d2d2d2;
   --dark: #3b3735;
+  --primary-font: "Roboto", sans-serif, Arial;
+  --primary-font-md: "Roboto Medium", sans-serif, Arial;
+  --secondry-font: "Archivo Black", sans-serif, Arial;
 }
 
 html {
@@ -19,7 +22,7 @@ html {
 body {
   line-height: 1.6;
   font-size: 1.6rem;
-  font-family: "Roboto";
+  font-family: var(--primary-font);
 }
 
 /* 
@@ -51,7 +54,7 @@ a {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Roboto Medium";
+  font-family: var(--primary-font-md);
 }
 
 /* 
@@ -191,10 +194,10 @@ Nav
   left: 0;
 }
 
-.nav-menu__title{
+.nav-menu__title {
   color: var(--white);
   font-size: 2rem;
-  font-family: "Archivo Black";
+  font-family: var(--secondry-font);
   border-bottom: 1px solid var(--white);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
@@ -233,17 +236,17 @@ Nav
   margin: auto;
   width: 0;
   height: 0.3rem;
-  border-radius: 5rem ;
+  border-radius: 5rem;
   background-color: var(--orange);
   transition: all 250ms ease-in-out;
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
   -ms-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
-  -webkit-border-radius: 5rem ;
-  -moz-border-radius: 5rem ;
-  -ms-border-radius: 5rem ;
-  -o-border-radius: 5rem ;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
 }
 
 .mobile-menu__link:hover {
@@ -279,7 +282,7 @@ Nav
   -o-transition: all 100ms ease-in;
 }
 
-.nav-menu__link:hover{
+.nav-menu__link:hover {
   background-color: var(--white);
   color: var(--dark);
 }
@@ -299,7 +302,7 @@ Header Linls
 
 .nav__link {
   color: var(--white);
-  font-family: "Roboto Medium";
+  font-family: var(--primary-font-md);
   margin-left: 1.5rem;
 }
 .nav__link--border {
@@ -421,7 +424,7 @@ Header Content
   margin-top: 6rem;
 }
 .header-content__title {
-  font-family: "Archivo Black";
+  font-family: var(--secondry-font);
   font-size: 5rem;
   line-height: 1.2;
   max-width: 35rem;
