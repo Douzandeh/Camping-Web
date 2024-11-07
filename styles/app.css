@@ -3,6 +3,7 @@
   --white: #fff;
   --grey: #d2d2d2;
   --dark: #3b3735;
+  --app-bg: #faf4f2;
   --primary-font: "Roboto", sans-serif, Arial;
   --primary-font-md: "Roboto Medium", sans-serif, Arial;
   --secondry-font: "Archivo Black", sans-serif, Arial;
@@ -23,6 +24,7 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: var(--primary-font);
+  background-color: var(--app-bg);
 }
 
 /* 
@@ -437,4 +439,59 @@ Header Content
 }
 .header-content__link {
   background-color: var(--orange);
+}
+
+/* 
+
+
+-- Main --
+
+
+*/
+
+.main {
+  padding: 4rem;
+}
+
+/*
+
+=========
+Services
+=========
+
+*/
+
+.services {
+  margin-top: -20rem;
+}
+.service {
+  background-color: var(--white);
+  /* width: 36rem; */
+  height: 26rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark);
+  padding: 0 4rem;
+  margin-bottom: 2rem;
+}
+
+.service__img {
+  display: block;
+}
+
+.service__title {
+  font-family: var(--secondry-font);
+  font-size: 1.8rem;
+  margin: 1.5rem 0 0.8rem 0;
+}
+
+.service__caption {
 }
