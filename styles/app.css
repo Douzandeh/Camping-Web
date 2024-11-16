@@ -465,6 +465,8 @@ Services
   margin-top: -20rem;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
 }
 .service {
   background-color: var(--white);
@@ -516,6 +518,10 @@ Destinations
   margin: 3rem auto;
 }
 .destinations__places {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
 }
 .destinations__btn {
   color: var(--orange);
@@ -543,6 +549,10 @@ Destinations
   padding: 3rem;
   color: var(--dark);
   margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  width: 30rem;
+  flex-grow: 1;
 }
 .place__banner {
   position: relative;
@@ -578,6 +588,11 @@ Destinations
 }
 .place__like-icon {
 }
+
+.place__like-icon--fill {
+  fill: var(--orange);
+  stroke: var(--white);
+}
 .place__price {
   background-color: var(--white);
   position: absolute;
@@ -602,6 +617,7 @@ Destinations
   font-family: var(--secondry-font);
   margin-top: 3rem;
   margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 .place__caption {
   margin-bottom: 3rem;
@@ -610,5 +626,5 @@ Destinations
 }
 .place__link {
   color: #8d8d8d;
-  background-color: rgb(141, 141, 141,0.1);
+  background-color: rgb(141, 141, 141, 0.1);
 }
