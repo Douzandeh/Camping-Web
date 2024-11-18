@@ -1,5 +1,6 @@
 :root {
-  --orange: #e76f51;
+  --primary-color: #e76f51;
+  --secondary-color: #f8e1db;
   --white: #fff;
   --grey: #d2d2d2;
   --dark: #3b3735;
@@ -156,7 +157,7 @@ Nav
   width: 4rem;
   height: 0.3rem;
   border-radius: 10rem;
-  background-color: var(--orange);
+  background-color: var(--primary-color);
   -webkit-border-radius: 10rem;
   -moz-border-radius: 10rem;
   -ms-border-radius: 10rem;
@@ -239,7 +240,7 @@ Nav
   width: 0;
   height: 0.3rem;
   border-radius: 5rem;
-  background-color: var(--orange);
+  background-color: var(--primary-color);
   transition: all 250ms ease-in-out;
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
@@ -352,7 +353,7 @@ Header Linls
   width: 3rem;
   height: 0.3rem;
   border-radius: 1rem;
-  background-color: var(--orange);
+  background-color: var(--primary-color);
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
@@ -372,7 +373,7 @@ Header Linls
   width: 3rem;
   height: 0.3rem;
   border-radius: 1rem;
-  background-color: var(--orange);
+  background-color: var(--primary-color);
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
@@ -438,7 +439,7 @@ Header Content
   margin: 0 auto 2rem auto;
 }
 .header-content__link {
-  background-color: var(--orange);
+  background-color: var(--primary-color);
 }
 
 /* 
@@ -508,6 +509,7 @@ Destinations
 .destinations {
   text-align: center;
   padding: 6rem 0;
+  color: var(--dark);
 }
 .destinations__logo {
   width: 8rem;
@@ -526,8 +528,8 @@ Destinations
   margin-left: -1rem;
 }
 .destinations__btn {
-  color: var(--orange);
-  border: 1px solid var(--orange);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   background-color: transparent;
   transition: all 100ms ease-in;
   -webkit-transition: all 100ms ease-in;
@@ -539,7 +541,7 @@ Destinations
 
 .destinations__btn:hover {
   color: var(--app-bg);
-  background-color: var(--orange);
+  background-color: var(--primary-color);
 }
 .place {
   background-color: var(--white);
@@ -593,7 +595,7 @@ Destinations
 }
 
 .place__like-icon--fill {
-  fill: var(--orange);
+  fill: var(--primary-color);
 }
 .place__price {
   background-color: var(--white);
@@ -612,7 +614,7 @@ Destinations
 }
 .place__price-text {
   font-family: var(--primary-font-md);
-  color: var(--orange);
+  color: var(--primary-color);
   text-align: center;
 }
 .place__title {
@@ -629,4 +631,50 @@ Destinations
 .place__link {
   color: #8d8d8d;
   background-color: rgb(141, 141, 141, 0.1);
+}
+
+/*
+
+=============
+News Letter
+=============
+
+*/
+
+.newsletter {
+  background-color: var(--secondary-color);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  color: var(--dark);
+  text-align: center;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.newsletter__content {
+}
+.newsletter__title {
+  font-family: var(--secondry-font);
+  font-size: 3rem;
+  max-width: 16rem;
+  margin: 1.5rem auto;
+}
+.newsletter__caption {
+  font-family: var(--primary-font-md);
+}
+.newsletter__email-box {
+}
+.newsletter__email-icon {
+}
+.newsletter__input {
+}
+.newsletter__submit {
+}
+.newletter__banner {
+}
+.newsletter__img {
+  width: 100%;
 }
