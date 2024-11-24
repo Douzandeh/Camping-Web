@@ -48,6 +48,22 @@
   .newsletter__title {
     margin-bottom: 0;
   }
+
+  .footer-app{
+    display: block;
+  }
+
+  .footer-app--mobile{
+    display: none;
+  }
+
+  .footer__wrapper{
+    display: flex;
+  }
+
+  .footer__left{
+    max-width: 50rem;
+  }
 }
 
 @media (min-width: 1200px) {
