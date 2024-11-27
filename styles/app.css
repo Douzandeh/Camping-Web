@@ -454,6 +454,27 @@ Header Content
   text-align: center;
   padding: 6rem 0;
   color: var(--dark);
+  position: relative;
+}
+
+.destinations ::after,
+.destinations::before {
+  content: "";
+  position: absolute;
+  width: 60rem;
+  height: 60rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.destinations::after {
+  background-image: url(../images/svgs/shape1.svg);
+  right: 0;
+}
+
+.destinations::before {
+  background-image: url(../images/svgs/shape2.svg);
+  left: 0;
 }
 .destinations__logo {
   width: 8rem;
