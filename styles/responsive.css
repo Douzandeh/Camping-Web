@@ -90,7 +90,7 @@
 }
 
 @media (min-width: 1200px) {
-  .header{
+  .header {
     min-height: 80rem;
   }
   .newsletter {
